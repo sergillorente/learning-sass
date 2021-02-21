@@ -1,3 +1,6 @@
-header {
-    background: blue;
+@import './variables';
+@import './header';
+
+.contact {
+    @include flexCenter();
 }
